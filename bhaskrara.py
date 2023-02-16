@@ -1,7 +1,7 @@
 import math
 
 #Recebendo os valores de A, B e C
-
+#Jp esteve aki
 a = int(input("Digite o valor de A: "))
 b = int(input("Digite o valor de B: "))
 c = int(input("Digite o valor de C: "))
