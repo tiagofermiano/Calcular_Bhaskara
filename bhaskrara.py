@@ -1,7 +1,6 @@
 import math
 
 #Recebendo os valores de A, B e C
-#Jp esteve aki
 a = int(input("Digite o valor de A: "))
 b = int(input("Digite o valor de B: "))
 c = int(input("Digite o valor de C: "))
@@ -19,4 +18,5 @@ if d == 0:
 if d > 0:
     x1 = ((-b) + math.sqrt(d)) / (2*a)
     x2 = ((-b) - math.sqrt(d)) / (2*a)
-    print("A equação possui duas raizes reais {} e {}!".format(x1,x2))
+
+    print("A equação possui duas raizes reais {:.2f} e {:.2f}!".format(x1,x2))
